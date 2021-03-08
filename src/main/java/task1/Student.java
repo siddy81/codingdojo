@@ -1,12 +1,22 @@
-package objectorientation;
+package task1;
+
+import lombok.*;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Main {
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class Student implements Comparable<Student> {
+    private String id;
+    private String name;
+
     @SuppressWarnings("java:S106")
-    public static void main(String[] args) {
+    public static void task1() {
         List<Student> students = new ArrayList<>();
         students.add(Student.builder()
                 .id("5421")
@@ -24,5 +34,15 @@ public class Main {
 
         students.forEach(student ->
                 System.out.println(student.toString()));
+    }
+
+    @Override
+    public String toString() {
+        return this.name + " " + this.id;
+    }
+
+    @Override
+    public int compareTo(Student student) {
+        return this.getName().compareTo(student.getName());
     }
 }
