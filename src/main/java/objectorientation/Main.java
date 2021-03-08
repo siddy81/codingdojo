@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Main {
+    @SuppressWarnings("java:S106")
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>();
         students.add(Student.builder()
