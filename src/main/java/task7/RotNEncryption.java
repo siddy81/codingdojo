@@ -13,10 +13,9 @@ public class RotNEncryption {
 
         for (int i = 0; i < data.length; i++) {
             if (String.valueOf(data[i]).matches(regex)) {
-                char firstChar = Character.isUpperCase(data[i]) ? 'A':'a';
-                int originalAlphabetPosition = data[i] - firstChar;
-                int newAlphabetPosition = (originalAlphabetPosition + offset) % 26;
-                char newCharacter = (char) (firstChar + newAlphabetPosition);
+                char firstChar = Character.isUpperCase(data[i]) ? 'A' : 'a';
+
+                char newCharacter = (char) (firstChar + (data[i] - firstChar + offset) % 26);
 
                 sb.append(newCharacter);
             } else {
