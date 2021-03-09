@@ -14,6 +14,8 @@ public class RotNEncryptionTest {
                 {3,"Hello, World","Khoor, Zruog"},
                 {13,"Hello, World","Uryyb, Jbeyq"},
                 {13,"W","J"},
+                {13,"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+                        "Yberz vcfhz qbybe fvg nzrg, pbafrgrghe fnqvcfpvat ryvge, frq qvnz abahzl rvezbq grzcbe vaivqhag hg ynober rg qbyber zntan nyvdhlnz reng, frq qvnz ibyhcghn. Ng ireb rbf rg npphfnz rg whfgb qhb qbyberf rg rn erohz. Fgrg pyvgn xnfq thoretera, ab frn gnxvzngn fnapghf rfg Yberz vcfhz qbybe fvg nzrg. Yberz vcfhz qbybe fvg nzrg, pbafrgrghe fnqvcfpvat ryvge, frq qvnz abahzl rvezbq grzcbe vaivqhag hg ynober rg qbyber zntan nyvdhlnz reng, frq qvnz ibyhcghn. Ng ireb rbf rg npphfnz rg whfgb qhb qbyberf rg rn erohz. Fgrg pyvgn xnfq thoretera, ab frn gnxvzngn fnapghf rfg Yberz vcfhz qbybe fvg nzrg."},
 
         };
     }
