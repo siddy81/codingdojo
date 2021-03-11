@@ -59,7 +59,5 @@ public class JobPlannerTest {
         Assert.assertEquals(jobList[0], "B");
         Assert.assertEquals(jobList[1], "A");
         Assert.assertEquals(jobList[2], "C");
-
     }
-
 }
