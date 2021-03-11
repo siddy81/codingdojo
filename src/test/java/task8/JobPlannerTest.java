@@ -32,7 +32,6 @@ public class JobPlannerTest {
         jobPlanner.register('A');
         jobPlanner.register('Q');
 
-
         String[] jobList = jobPlanner.sort();
 
         Assert.assertNotNull(jobList);
@@ -46,24 +45,21 @@ public class JobPlannerTest {
         Assert.assertEquals(jobList[5], "Z");
     }
 
-
     @Test
     public void testRegisterMultipleDependentJobs() {
         jobPlanner.register('A', 'B');
-      //  jobPlanner.register('A');
         jobPlanner.register('B');
-        jobPlanner.register('C','A');
-
+        jobPlanner.register('C', 'A');
 
         String[] jobList = jobPlanner.sort();
 
         Assert.assertNotNull(jobList);
-      //  Assert.assertEquals(jobList.length, 3);
+        Assert.assertEquals(jobList.length, 3);
 
         Assert.assertEquals(jobList[0], "B");
-        Assert.assertEquals(jobList[0], "A");
-        Assert.assertEquals(jobList[1], "C");
-
+        Assert.assertEquals(jobList[1], "A");
+        Assert.assertEquals(jobList[2], "C");
 
     }
+
 }
